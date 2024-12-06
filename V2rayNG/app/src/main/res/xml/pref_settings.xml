@@ -39,6 +39,11 @@
             android:summary="@string/summary_pref_append_http_proxy"
             android:title="@string/title_pref_append_http_proxy" />
 
+        <CheckBoxPreference
+            android:key="pref_allow_bypass"
+            android:summary="@string/summary_pref_allow_bypass"
+            android:title="@string/title_pref_allow_bypass" />
+
         <EditTextPreference
             android:inputType="number"
             android:key="pref_local_dns_port"

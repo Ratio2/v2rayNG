@@ -207,6 +207,9 @@
     <string name="title_pref_append_http_proxy">Append HTTP Proxy to VPN</string>
     <string name="summary_pref_append_http_proxy">HTTP proxy will be used directly from (browser/ some supported apps), without going through the virtual NIC device (Android 10+)</string>
 
+    <string name="title_pref_allow_bypass">Allow bypass</string>
+    <string name="summary_pref_allow_bypass">Allows all apps to bypass this VPN connection. By default, all traffic from apps is forwarded through the VPN interface and it is not possible for apps to side-step the VPN.</string>
+
     <string name="title_pref_feedback">Feedback</string>
     <string name="summary_pref_feedback">Feedback enhancements or bugs to GitHub</string>
     <string name="summary_pref_tg_group">Join Telegram Group</string>

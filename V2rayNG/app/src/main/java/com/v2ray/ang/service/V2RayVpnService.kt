@@ -196,6 +196,10 @@ class V2RayVpnService : VpnService(), ServiceControl {
             }
         }
 
+        if (MmkvManager.decodeSettingsBool(AppConfig.PREF_ALLOW_BYPASS)) {
+            builder.allowBypass()
+        }
+
         // Create a new interface using the builder and save the parameters.
         try {
             mInterface = builder.establish()!!
